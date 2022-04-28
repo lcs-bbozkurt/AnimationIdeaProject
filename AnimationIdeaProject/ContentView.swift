@@ -4,13 +4,16 @@
 //
 //  Created by Berk Bozkurt on 2022-04-28.
 //
+// Rotating Arrow
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Image(systemName: "arrow.clockwise")
+            .resizable()
+            .frame(width: 40, height: 40)
+        
     }
 }
 
